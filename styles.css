@@ -1,13 +1,38 @@
-.header{
+.header {
   display: flex;
-  flex-direction: column;
-  background-color: #1F2937;
-
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:#1F2937;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:auto;
+  background: #1F2937;
 }
 
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  background-color: #3882f6;
+  width: 100px;
+  border-radius: 15%;
+}
+
+p{
+  color: white;
+}
+h1{
+  color: white;
+}/*
 .section1{
   display: flex;
-  background-color: #1;
+  background-color: white;
 
 }
 
@@ -16,15 +41,18 @@
   background-color: brown;
 
 }
-
+*/
 .section3{
   display: flex;
   background-color: #e5e7eb;
 
 }
 
+/*
 .footer{
   display: flex;
   background-color: #3882F6;
 
 }
+  */
+  
