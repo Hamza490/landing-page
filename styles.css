@@ -1,3 +1,4 @@
+/*Header + Navigation Bar*/
 .header {
   display: flex;
   flex-direction: row;
@@ -29,26 +30,70 @@ p{
 }
 h1{
   color: white;
-}/*
-.section1{
-  display: flex;
-  background-color: white;
+}
 
+/*Section 1*/
+.section1{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background-color: #3882f6;
+height: 500px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+div.pairs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+div.combo{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+span#square{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-color: gold;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: thick;
+  margin-bottom: 10px;
+}
+
+div.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+span#text{
+  background-color: purple;
+  height: 100px;
+  width: 100px
+  
 }
 
 .section2{
   display: flex;
-  background-color: brown;
-
+  background-color: grey;
+  height: 400px
 }
-*/
+/*
+
 .section3{
   display: flex;
+  flex-direction: row;
   background-color: #e5e7eb;
 
 }
 
-/*
+
 .footer{
   display: flex;
   background-color: #3882F6;
