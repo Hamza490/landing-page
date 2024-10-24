@@ -23,6 +23,8 @@ nav p#logo{
   color: white;
   font-weight: bold;
 }
+
+
 /*Header*/
 .header {
   display: flex;
@@ -30,15 +32,17 @@ nav p#logo{
   justify-content: center;
   align-items: center;
   background-color:#1F2937;
-  
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
 
 .container{
   display: flex;
   flex-direction: column;
-  align-items: left;
-  margin-left: 70px;
-  font-family: 'Roboto';
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
 }
 
 button#booking{
@@ -47,35 +51,38 @@ button#booking{
   border-radius: 10%;
   color: white;
   font-weight: bold;
+  margin: 0;
 }
 
-p{
+p#message{
 color: white;
 font-family: 'Roboto', sans-serif;
+width: 350px;
 }
 
 h1{
   color: white;
-  font-family: 'Roboto', sans-serif;}
+  font-family: 'Roboto', sans-serif;
+}
+  
 
 img{
-  border-radius: 10px;
-  margin-right: 70px;
-  margin-left: 20px;
-  height: max-content;
-  width: max-content;
+  border-radius: 10px; 
+  width: 300px;
 }
+
 /*Section 1 - Pictures, Blurbs*/
 .section1{
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
-background-color: #3882f6;
+background-color: white;
 height: 500px;
 }
 h2{
   display: flex;
   justify-content: center;
+  font-family: 'Roboto' sans-serif;
 }
 div.pairs{
   display: flex;
@@ -92,7 +99,7 @@ span#square{
   background-color: white;
   height: 100px;
   width: 100px;
-  border-color: gold;
+  border-color: #3882F6;
   border-radius: 10%;
   border-style: solid;
   border-width: thick;
@@ -105,9 +112,10 @@ div.text{
 }
 
 span#text{
-  background-color: purple;
   height: 100px;
-  width: 100px
+  width: 100px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
   
 }
 
@@ -117,20 +125,25 @@ span#text{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: #E5E7EB;
   height: 400px;
   border:fit-content;
 }
 p#quote{
   height: auto;
-  width: 400px;
+  width: 450px;
   margin: 20px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
 }
 
 p#reference{
   height: auto;
-  width: 200px;
+  width: 350px;
   margin: 20px;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*Section 3 - Call to Action*/
@@ -138,29 +151,40 @@ p#reference{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: pink;
-  height: 300px
+  height: 300px;
+  background-color: white;
 
 }
 
-/*
-.container{
+
+.container2{
   display: flex;
-  background-color: #3882F6;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
   height: auto;
   width: auto;
   margin: 75px;
-}*/
+  padding: 10px;
+  background-color: #3882F6;
+
+}
 
 .callToAction{
   display: flex;
   flex-direction: column;
   margin: 10px;
+  color: white;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 button{
   height: 50px;
+  width: auto;
   margin: 10px;
+  background-color: #3882F6;
+  border-color: white;
+  color: white;
+  border-radius: 5%;
 }
